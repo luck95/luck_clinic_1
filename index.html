@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Clinica Demo | Luck Developer</title>
+	<link rel="shorcut icon" href="recursos/imagenes/favicon.ico" type="image/x-icon"/>
+	<link rel="stylesheet" href="recursos/estilos/estilos.css">
+	<link rel="stylesheet" href="recursos/estilos/estilosgenerales.css">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<link rel="stylesheet" href="recursos/icomoon/fonts.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+	<script src="recursos/js/jquery-3.2.1.min.js"></script>
+</head>
+<body>
+	<header id="header">
+		<div class="grupo width">
+			<div class="logo">
+				<a href="index.html" title="Inicio"><img src="recursos/imagenes/logo.svg" alt=""></a>
+			</div>
+			<div id="open_menu">
+				<i class="fas fa-bars"></i>
+			</div>
+			<div id="menu">
+				<ul class="no_list menu_content">
+					<li><a href="index.html" class="link_active">HOME</a></li>
+					<li><a href="areas.html">AREAS</a></li>
+					<li class="submenu">
+						<a href="especialistas.html" class="border_b">ESPECIALISTAS</a>
+						<i class="fa fa-angle-right"></i>
+						<ul class="no_list hide">
+							<li><a href="especialistas/especialista.html">Especialista</a></li>
+							<li><a href="especialistas/especialista.html">Especialista</a></li>
+						</ul>
+					</li>
+					<li><a href="nosotros.html">NOSOTROS</a></li>
+					<li><a href="blog.html">BLOG</a></li>
+					<li><a href="contacto.html">CONTACTO</a></li>
+					<li><a href="reservar.html">RESERVAR</a></li>
+				</ul>
+			</div>
+		</div>
+	</header>
+	<section id="banner">
+		<div class="grupo">
+			<div class="slider">
+				<article class="left-r" style="background-image: url(recursos/imagenes/banner/calida-atencion.jpg)">
+					<div class="right">
+						<h1>CÁLIDA <strong>ATENCIÓN</strong></h1>
+						<h3>Atención de calidad.</h3>
+					</div>
+				</article>
+				<article style="background-image: url(recursos/imagenes/banner/excelencia-medica.jpg)">
+					<div class="left">
+						<h1>EXCELENCIA <strong>MÉDICA</strong></h1>
+						<h3>Especialistas de alto nivel.</h3>
+					</div>
+				</article>
+				<article style="background-image: url(recursos/imagenes/banner/equipo-moderno.jpg)">
+					<div class="left">
+						<h1>EQUIPO <strong>MODERNO</strong></h1>
+					</div>
+				</article>
+				<article style="background-image: url(recursos/imagenes/banner/consultorio-web.jpg)">
+					<div class="right">
+						<h1>CONSULTORIO<strong> WEB</strong></h1>
+					</div>
+				</article>
+			</div>
+		</div>
+	</section>
+	<section id="servicios">
+		<div class="grupo width padding">
+			<div class="servicio margin">
+				<a href=""><img src="recursos/imagenes/servicios/cardiologia.svg" alt=""></a>
+				<div class="servicio_description">
+					<h3 class="sub_title">CARDIOLOGIA</h3>
+					<p class="parraf">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugit, sed qui accusamus quaerat delectus molestiae ratione provident amet unde harum neque quibusdam, saepe voluptatibus odit voluptas maxime enim animi ex!</p>
+				</div>
+			</div>
+			<div class="servicio margin">
+				<a href=""><img src="recursos/imagenes/servicios/consultorio.svg" alt=""></a>
+				<div class="servicio_description">
+					<h3 class="sub_title">CONSULTORIO MEDICO</h3>
+					<p class="parraf">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugit, sed qui accusamus quaerat delectus molestiae ratione provident amet unde harum neque quibusdam, saepe voluptatibus odit voluptas maxime enim animi ex!</p>
+				</div>
+			</div>
+			<div class="servicio margin">
+				<a href=""><img src="recursos/imagenes/servicios/dental.svg" alt=""></a>
+				<div class="servicio_description">
+					<h3 class="sub_title">DENTAL</h3>
+					<p class="parraf">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugit, sed qui accusamus quaerat delectus molestiae ratione provident amet unde harum neque quibusdam, saepe voluptatibus odit voluptas maxime enim animi ex!</p>
+				</div>
+			</div>
+			<div class="servicio margin">
+				<a href=""><img src="recursos/imagenes/servicios/rayos-x.svg" alt=""></a>
+				<div class="servicio_description">
+					<h3 class="sub_title">RAYOS X</h3>
+					<p class="parraf">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugit, sed qui accusamus quaerat delectus molestiae ratione provident amet unde harum neque quibusdam, saepe voluptatibus odit voluptas maxime enim animi ex!</p>
+				</div>
+			</div>
+			<div class="servicio margin">
+				<a href=""><img src="recursos/imagenes/servicios/ambulancia.svg" alt=""></a>
+				<div class="servicio_description">
+					<h3 class="sub_title">EMERGENCIAS</h3>
+					<p class="parraf">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugit, sed qui accusamus quaerat delectus molestiae ratione provident amet unde harum neque quibusdam, saepe voluptatibus odit voluptas maxime enim animi ex!</p>
+				</div>
+			</div>		
+			<div class="servicio margin">
+				<a href=""><img src="recursos/imagenes/servicios/farmacia.svg" alt=""></a>
+				<div class="servicio_description">
+					<h3 class="sub_title">FARMACIA</h3>
+					<p class="parraf">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugit, sed qui accusamus quaerat delectus molestiae ratione provident amet unde harum neque quibusdam, saepe voluptatibus odit voluptas maxime enim animi ex!</p>
+				</div>
+			</div>	
+		</div>
+	</section>
+	<section id="citas">
+		<div class="grupo">
+			<div class="cita_image" style="background-image: url(recursos/imagenes/reserva_cita.jpg)"></div>
+			<div class="formulario form_portada margin">
+				<form action="enviar.php" method="post">
+					<h1 class="margin_b">Reservar una cita</h1>
+					<div class="label label_large">
+						<label for="nombre" class="subtitle_form">Name:</label>
+						<input type="text" name="nombre" id="nombre">
+					</div>
+					<div class="label label_small">
+						<label for="telefono" class="subtitle_form">Phone:</label>
+						<input type="text" name="telefono" id="telefono">
+					</div>
+					<div class="label label_large">
+						<label for="email" class="subtitle_form">Dirección email:</label>
+						<input type="text" name="nombre" id="email">
+					</div>
+					<div class="label label_small">
+						<label for="fecha_nac" class="subtitle_form">Fecha de Nacimiento:</label>
+						<input type="text" name="fecha_nac" id="fecha_nac" placeholder="DD/MM/YY">
+					</div>
+					<div class="label label_small">
+						<div class="label_sub">
+							<label for="fecha_nac" class="subtitle_form">Fecha de Cita:</label>
+							<input type="text" name="fecha_nac" id="fecha_nac" placeholder="DD/MM/YY">
+						</div>
+						<div class="label_sub">
+							<span class="subtitle_form">¿Ha reservado citas anteriormente?</span>
+							<input type="radio" id="si" name="confirm" value="si" checked>
+							<label class="subtitle_radio" for="si">Si</label>
+							<input type="radio" id="no" name="confirm" value="no">
+							<label class="subtitle_radio" for="no">No</label>
+						</div>
+					</div>
+					<div class="label label_large">
+						<label for="mensaje" class="subtitle_form">Mensaje:</label>
+						<textarea name="mensaje" id="mensaje"></textarea>
+					</div>
+					<button class="boton" type="submit">CONFIRMAR CITA</button>
+				</form>
+			</div>
+		</div>
+	</section>	
+	<div class="novedades-testimonios width padding">
+		<section id="novedades">
+			<div class="grupo margin">
+				<div class="tab_vertical">
+					<div class="novedad tab_content activate_tab">
+						<div class="title_tab">
+							<i class="fas fa-heartbeat"></i>
+							<h2 class="subtitle_tab">Ljasdkasjd sdgsfgsfg 353fesfsd</h2>
+						</div>
+						<div class="tab_division">
+							<p class="parraf margin_b">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui laboriosam modi, et quasi voluptates est corrupti voluptatum neque molestias aliquid quod ipsam assumenda. Perferendis quidem molestias cum non ex inventore.</p>
+						</div>
+					</div>
+					<div class="novedad tab_content">
+						<div class="title_tab">
+							<i class="fas fa-procedures"></i>
+							<h2 class="subtitle_tab">Gwtrgfdhdfh</h2>
+						</div>
+						<div class="tab_division">
+							<p class="parraf margin_b">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui laboriosam modi, et quasi voluptates est corrupti voluptatum neque molestias aliquid quod ipsam assumenda. Perferendis quidem molestias cum non ex inventore.</p>
+						</div>
+					</div>
+					<div class="novedad tab_content">
+						<div class="title_tab">
+							<i class="fas fa-stethoscope"></i>
+							<h2 class="subtitle_tab">Lljafkjdfk</h2>
+						</div>
+						<div class="tab_division">
+							<p class="parraf margin_b">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui laboriosam modi, et quasi voluptates est corrupti voluptatum neque molestias aliquid quod ipsam assumenda. Perferendis quidem molestias cum non ex inventore.</p>
+						</div>
+					</div>
+					<div class="novedad tab_content">
+						<div class="title_tab">
+							<i class="fas fa-user-md"></i>
+							<h2 class="subtitle_tab">Lljafkjdfk</h2>
+						</div>
+						<div class="tab_division">
+							<p class="parraf margin_b">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui laboriosam modi, et quasi voluptates est corrupti voluptatum neque molestias aliquid quod ipsam assumenda. Perferendis quidem molestias cum non ex inventore.</p>
+						</div>
+					</div>
+					<div class="novedad tab_content">
+						<div class="title_tab">
+							<i class="fas fa-weight"></i>
+							<h2 class="subtitle_tab">Asdgdfgdg</h2>
+						</div>
+						<div class="tab_division">
+							<p class="parraf margin_b">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui laboriosam modi, et quasi voluptates est corrupti voluptatum neque molestias aliquid quod ipsam assumenda. Perferendis quidem molestias cum non ex inventore.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section id="testimonios">
+			<div class="grupo margin">
+				<h4 class="title_pacientes">Testimonios de pacientes</h4>
+				<article class="testimonio border_bes padding">
+					<img src="recursos/imagenes/testimonios/1.jpg" alt="">
+					<div class="description_testimonio">
+						<p>"Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+							Rerum quam eum id magnam mollitia corrupti, dolores, 
+							corporis ipsum quo placeat assumenda nam officia illo"
+						</p>
+						<h6>- XPERSON</h6>
+						<span>lsdgfsdg company</span>
+					</div>
+				</article>
+				<article class="testimonio padding">
+					<img src="recursos/imagenes/testimonios/2.jpg" alt="">
+					<div class="description_testimonio">
+						<p>"Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+							Rerum quam eum id magnam mollitia corrupti, dolores, 
+							corporis ipsum quo placeat assumenda nam officia illo" 
+						</p>
+						<h6>- XPERSON</h6>
+						<span>lsdgfsdg company</span>
+					</div>
+				</article>
+				<a href="" class="testimonio_link">MOSTRAR MÁS TESTIMONIOS</a>
+			</div>
+		</section>
+	</div>
+	<section id="especialistas">
+		<div class="grupo width margin">
+			<div class="especialistas_header">
+				<h1 class="especialistas_title">NUESTRO EQUIPO DE ESPECIALISTAS</h1>
+				<h4 class="especialistas_subtitle">Kksfjasjf hasjfa hsgfbhasgf</h4>
+			</div>
+		</div>
+		<div class="grupo width margin">
+			<div class="carrusel">
+				<div class="carrusel_content">
+					<img src="recursos/imagenes/testimonios/1.jpg" alt="">
+					<h1 class="especialistas_title">DR. JKJDKJSFJK</h1>
+					<span class="especialistas_profesion">Cardiologia</span>
+				</div>
+				<div class="carrusel_content">
+					<img src="recursos/imagenes/testimonios/2.jpg" alt="">
+					<h1 class="especialistas_title">DR. JKJDKJSFJK</h1>
+					<span class="especialistas_profesion">Cardiologia</span>
+				</div>
+				<div class="carrusel_content">
+					<img src="recursos/imagenes/testimonios/3.jpg" alt="">
+					<h1 class="especialistas_title">DR. JKJDKJSFJK</h1>
+					<span class="especialistas_profesion">Cardiologia</span>
+				</div>
+				<div class="carrusel_content">
+					<img src="recursos/imagenes/testimonios/1.jpg" alt="">
+					<h1 class="especialistas_title">DR. JKJDKJSFJK</h1>
+					<span class="especialistas_profesion">Cardiologia</span>
+				</div>
+				<div class="carrusel_content">
+					<img src="recursos/imagenes/testimonios/2.jpg" alt="">
+					<h1 class="especialistas_title">DR. JKJDKJSFJK</h1>
+					<span class="especialistas_profesion">Cardiologia</span>
+				</div>
+				<div class="carrusel_content">
+					<img src="recursos/imagenes/testimonios/3.jpg" alt="">
+					<h1 class="especialistas_title">DR. JKJDKJSFJK</h1>
+					<span class="especialistas_profesion">Cardiologia</span>
+				</div>
+				<div class="carrusel_content">
+					<img src="recursos/imagenes/testimonios/1.jpg" alt="">
+					<h1 class="especialistas_title">DR. JKJDKJSFJK</h1>
+					<span class="especialistas_profesion">Cardiologia</span>
+				</div>
+				<div class="carrusel_content">
+					<img src="recursos/imagenes/testimonios/2.jpg" alt="">
+					<h1 class="especialistas_title">DR. JKJDKJSFJK</h1>
+					<span class="especialistas_profesion">Cardiologia</span>
+				</div>
+			</div>
+			<div class="arrows">
+				<i class="fas fa-angle-left dir_left"></i>
+				<i class="fas fa-angle-right dir_rigth"></i>
+			</div>
+			<div class="controls">
+
+			</div>
+		</div>
+	</section>
+	<footer id="footer">
+		<div class="grupo width margin">
+			<div class="footer_content">
+				<h5 class="sub_title">Contáctenos</h5>
+				<div class="contactar">
+					<span><strong>Teléf:</strong>074 - 252635</span>	
+					<span><strong>Cel:</strong>9854568678</span>
+					<span><strong>Email:</strong>xemail@hotmail.com</span>
+				</div>
+			</div>
+			<div class="footer_content">
+				<h5 class="sub_title">Síguenos</h5>
+				<ul class="no_list seguir">
+					<li><a href=""><span class="icon-twitter"></span></a></li>
+					<li><a href=""><span class="icon-blogger"></span></a></li>
+					<li><a href=""><span class="icon-facebook"></span></a></li>
+					<li><a href=""><span class="icon-play"></span></a></li>
+					<li><a href=""><span class="icon-youtube"></span></a></li>
+					<li><a href=""><span class="icon-twitch"></span></a></li>
+					<li><a href=""><span class="icon-instagram"></span></a></li>
+					<li><a href=""><span class="icon-amazon"></span></a></li>
+					<li><a href=""><span class="icon-google"></span></a></li>
+				</ul>
+			</div>
+			<div class="footer_content">
+				<h5 class="sub_title">Suscribete</h5>
+				<form action="" method="POST" class="suscribirse">
+					<input type="text" placeholder="Ingresa tu email">
+					<button type="submit"><i class="fas fa-at"></i></button>
+				</form>
+			</div>
+			<div class="footer_content">
+				<h5 class="sub_title">Información</h5>
+				<p>Copyrights © 2018 All Rights Reserved by Luck Dev. | <a href="">Sitio Web</a>|<a href="">Términos y Condiciones</a>|
+					<a href="">Accesibilidad</a>|<a href="">Políticas de Privacidad</a>
+				</p>
+			</div>
+		</div>
+	</footer>
+	<script src="recursos/js/menu.js"></script>
+	<script src="recursos/js/banner.js"></script>
+	<script src="recursos/js/tabs.js"></script>
+	<script src="recursos/js/carrusel.js"></script>
+</body>
+</html>

@@ -1,0 +1,161 @@
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Contacto - Clinica Demo | Luck Developer</title>
+	<link rel="shorcut icon" href="recursos/imagenes/favicon.ico" type="image/x-icon"/>
+	<link rel="stylesheet" href="recursos/estilos/estilos.css">
+	<link rel="stylesheet" href="recursos/estilos/estilosgenerales.css">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<link rel="stylesheet" href="recursos/icomoon/fonts.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+	<script src="recursos/js/jquery-3.2.1.min.js"></script>
+</head>
+<body>
+    <header id="header">
+		<div class="grupo width">
+			<div class="logo">
+				<a href="index.html" title="Inicio"><img src="recursos/imagenes/logo.svg" alt=""></a>
+			</div>
+			<div id="open_menu">
+				<i class="fas fa-bars"></i>
+			</div>
+			<div id="menu">
+				<ul class="no_list menu_content">
+					<li><a href="index.html">HOME</a></li>
+					<li><a href="areas.html">AREAS</a></li>
+					<li class="submenu">
+						<a href="especialistas.html" class="border_b">ESPECIALISTAS</a>
+						<i class="fa fa-angle-right"></i>
+						<ul class="no_list hide">
+							<li><a href="especialistas/especialista.html">Especialista</a></li>
+							<li><a href="especialistas/especialista.html">Especialista</a></li>
+						</ul>
+					</li>
+					<li><a href="nosotros.html">NOSOTROS</a></li>
+					<li><a href="blog.html">BLOG</a></li>
+					<li><a href="contacto.html" class="link_active">CONTACTO</a></li>
+					<li><a href="reservar.html">RESERVAR</a></li>
+				</ul>
+			</div>
+		</div>
+    </header>
+    <section id="banner">
+		<div class="grupo contacto" style="background-image: url(recursos/imagenes/banner/consultorio-web.jpg)">
+			<div class="medium_banner width margin">
+                <span class="banner_correo">xemail@hotmail.com</span>
+                <h2 class="banner_numero">+892 854 552</h2>
+                <span class="banner_direccion">759 KFKSJF JKSFKSF SKFJ, JKKSFSFJK FGHFHGFHGHG,FSF</span>
+			</div>
+		</div>
+    </section>
+    <section id="contacto">
+        <div class="grupo width">
+            <div class="contacto_formulario margin">
+				<h2 class="margin_b">Enviar email</h2>
+				<form action="" method="POST">
+					<div class="input small_input">
+						<label for="name">NOMBRE:</label>
+						<input type="text" id="name" required>
+					</div>
+					<div class="input small_input">
+						<label for="email">EMAIL:</label>
+						<input type="text" id="email" required>
+					</div>
+					<div class="input small_input">
+						<label for="telefono">TELEFONO:</label>
+						<input type="text" id="telefono" required>
+					</div>
+					<div class="input medium_input">
+						<label for="asunto">ASUNTO:</label>
+						<input type="text" id="asunto" required>
+					</div>
+					<div class="input small_input">
+						<label for="servicios">SERVICIO:</label>
+						<select name="select" id="servicios">
+							<option value="">-- Selecciona uno --</option>
+						</select>
+					</div>
+					<div class="input large_input">
+						<label for="mensaje">MENSAJE:</label>
+						<textarea name="mensaje" id="mensaje"></textarea>
+					</div>
+					<button class="boton_contacto" type="submit">ENVIAR MENSAJE</button>
+				</form>
+            </div>
+            <div class="time">
+				<h2>HORARIOS</h2>
+				<p class="parraf margin_b">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Necessitatibus 
+					tempore perferendis sapiente cum placeat quasi delectus</p>
+				<div class="day">
+					<h3>LUNES</h3>
+					<p class="parraf">8:00am - 11:00pm</p>
+				</div>	
+				<div class="day">
+					<h3>MARTES</h3>
+					<p class="parraf">8:00am - 11:00pm</p>
+				</div>	
+				<div class="day">
+					<h3>MIERCOLES</h3>
+					<p class="parraf">8:00am - 11:00pm</p>
+				</div>	
+				<div class="day">
+					<h3>JUEVES</h3>
+					<p class="parraf">8:00am - 11:00pm</p>
+				</div>	
+				<div class="day">
+					<h3>VIERNES</h3>
+					<p class="parraf">8:00am - 11:00pm</p>
+				</div>	
+				<div class="day">
+					<h3>SABADO</h3>
+					<p class="parraf">8:00am - 11:00pm</p>
+				</div>	
+				<div class="day">
+					<h3>DOMINGO</h3>
+					<p class="parraf"><strong>Cerrado</strong></p>
+				</div>	
+			</div>
+        </div>
+    </section>
+    <footer id="footer">
+		<div class="grupo width margin">
+			<div class="footer_content">
+				<h5 class="sub_title">Contáctenos</h5>
+				<div class="contactar">
+					<span><strong>Teléf:</strong>074 - 252635</span>	
+					<span><strong>Cel:</strong>9854568678</span>
+					<span><strong>Email:</strong>xemail@hotmail.com</span>
+				</div>
+			</div>
+			<div class="footer_content">
+				<h5 class="sub_title">Síguenos</h5>
+				<ul class="no_list seguir">
+					<li><a href=""><span class="icon-twitter"></span></a></li>
+					<li><a href=""><span class="icon-blogger"></span></a></li>
+					<li><a href=""><span class="icon-facebook"></span></a></li>
+					<li><a href=""><span class="icon-play"></span></a></li>
+					<li><a href=""><span class="icon-youtube"></span></a></li>
+					<li><a href=""><span class="icon-twitch"></span></a></li>
+					<li><a href=""><span class="icon-instagram"></span></a></li>
+					<li><a href=""><span class="icon-amazon"></span></a></li>
+					<li><a href=""><span class="icon-google"></span></a></li>
+				</ul>
+			</div>
+			<div class="footer_content">
+				<h5 class="sub_title">Suscribete</h5>
+				<form action="" method="POST" class="suscribirse">
+					<input type="text" placeholder="Ingresa tu email">
+					<button type="submit"><i class="fas fa-at"></i></button>
+				</form>
+			</div>
+			<div class="footer_content">
+				<h5 class="sub_title">Información</h5>
+				<p>Copyrights © 2018 All Rights Reserved by Luck Dev. | <a href="">Sitio Web</a>|<a href="">Términos y Condiciones</a>|
+					<a href="">Accesibilidad</a>|<a href="">Políticas de Privacidad</a>
+				</p>
+			</div>
+		</div>
+	</footer>
+	<script src="recursos/js/menu.js"></script>
+</body>
