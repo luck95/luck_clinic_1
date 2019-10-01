@@ -1268,10 +1268,7 @@ header > div{
             opacity: .5;
         }
             .enlace{
-                display: flex;
-                width: auto;
-                height: auto;
-                justify-content: center;
+                display:block;
                 margin-top: var(--margin);
             } 
             .short_banner .enlace a{
