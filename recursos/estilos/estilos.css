@@ -1275,9 +1275,6 @@ header > div{
                 margin-top: var(--margin);
             } 
             .short_banner .enlace a{
-                display:table;
-                width:auto;
-                height:auto;
                 font-size:16px;         
                 font-family: 'Lato-Bold',sans-serif;
                 letter-spacing: 1px;
