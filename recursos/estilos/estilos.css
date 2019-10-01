@@ -1268,13 +1268,15 @@ header > div{
             opacity: .5;
         }
             .enlace{
-                display:block;
+                display: flex;
+                width: auto;
+                height: auto;
+                justify-content: center;
                 margin-top: var(--margin);
             } 
             .short_banner .enlace a{
                 display:block;
                 font-size:16px;         
-                height: 100%;      
                 font-family: 'Lato-Bold',sans-serif;
                 letter-spacing: 1px;
                 padding: 10px 25px;
