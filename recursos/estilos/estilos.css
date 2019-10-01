@@ -1275,7 +1275,7 @@ header > div{
                 margin-top: var(--margin);
             } 
             .short_banner .enlace a{
-                display:block;
+                display:table;
                 width:auto;
                 height:auto;
                 font-size:16px;         
